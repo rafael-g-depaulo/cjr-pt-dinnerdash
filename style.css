@@ -1,0 +1,60 @@
+.main-container {
+    display: flex;
+    height: 100vh;
+}
+
+.img-lateral {
+    margin: 0;
+    height: 100%;
+    width: 66%;
+    background-size: cover;
+    background-image: url("img/sabri-tuzcu-365440.jpg");
+}
+
+.login-area {
+    display: table;
+    margin: 0;
+    width: 34%;
+    height: 100vh;
+    background-color: grey;
+}
+
+.login-container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.test {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+}
+
+.login-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+
+    margin: 0 4em;
+}
+
+.dinnerdash-tittle {
+    text-align: left;
+    font-size: 2em;
+    width: 100%;
+    margin: 1em 0;
+}
+
+.input-text {
+    width: 100%;
+}
+
+.submit-login {
+    width: 100%;
+}
+
+.login-form {
+    width: 100%;
+}
