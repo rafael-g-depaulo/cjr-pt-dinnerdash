@@ -16,7 +16,7 @@
     margin: 0;
     width: 34%;
     height: 100vh;
-    background-color: grey;
+    background-color: pink;
 }
 
 .login-container {
@@ -33,7 +33,7 @@
 .login-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     align-content: center;
     align-self: center;
 
@@ -43,12 +43,13 @@
 .dinnerdash-tittle {
     text-align: left;
     font-size: 2em;
-    width: 100%;
     margin: 1em 0;
 }
 
 .input-text {
-    width: 100%;
+    margin: 0 0 0.6em 0;
+    border-radius: 4px;
+    border: 1px solid grey;
 }
 
 .submit-login {
@@ -56,5 +57,22 @@
 }
 
 .login-form {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.fazer-cadastro-div {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    margin: 2em 0 0 0;
+}
+
+.fazer-cadastro {
+}
+
+.form-button {
+    
 }
