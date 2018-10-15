@@ -15,3 +15,9 @@
     background-size: cover;
     background-image: url("img/sabri-tuzcu-365440.jpg");
 }
+
+@media only screen and (max-width: 600px) {
+    .img-lateral {
+        display: none;
+    }
+}
