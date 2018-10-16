@@ -10,10 +10,10 @@
 
 .img-lateral {
     margin: 0;
-    height: 100%;
+    height: auto;
     flex-grow: 6;
     background-size: cover;
-    background-image: url("img/sabri-tuzcu-365440.jpg");
+    background-image: url("../img/sabri-tuzcu-365440.jpg");
 }
 
 @media only screen and (max-width: 600px) {
