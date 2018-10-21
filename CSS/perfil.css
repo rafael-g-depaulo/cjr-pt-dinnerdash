@@ -16,3 +16,14 @@
     background-size: cover;
     background-image: url("../img/restaurant.jpeg");
 }
+
+/* footer espaçamento*/
+.page-footer > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* conteudo do footer */
+.page-footer .footer-content {
+    margin:  0.4em 0.8em;
+}
